@@ -1,0 +1,133 @@
+p {
+  line-height: 1.7em;
+}
+header {
+  background: url("/Hotel/image_resources/showcase.jpg") no-repeat center
+    center/cover;
+  height: 600px;
+  display: block;
+  text-align: center;
+}
+#maintext {
+  padding-top: 170px;
+}
+header h1 {
+  color: white;
+  font-size: 60px;
+  padding: 0 0 20px;
+}
+
+header h1 span {
+  color: #f7c08a;
+}
+header p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0 0 20px;
+}
+header a {
+  color: white;
+  background-color: #333;
+  border: none;
+  font-size: 18px;
+  padding: 13px 20px;
+  text-decoration: none;
+}
+#history {
+  display: block;
+  height: 400px;
+}
+#pic {
+  float: left;
+  background: url("/Hotel/image_resources/photo-1.jpg") no-repeat;
+  min-height: 100%;
+  width: 50%;
+}
+#des {
+  text-align: center;
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 48px 30px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#des h1 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+#des span {
+  color: #f7c08a;
+}
+#des p {
+  font-size: 16px;
+  padding-bottom: 30px;
+  margin: 10px 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#des a {
+  color: #333;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-size: 18px;
+  padding: 13px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+#des a:hover {
+  background-color: #f7c08a;
+}
+#what {
+  height: 100px;
+}
+#l {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+  color: #333;
+}
+#m {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  background: #f7c08a;
+  color: #333;
+}
+#r {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+  color: #333;
+}
+i {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 3em;
+}
+h3 {
+  padding-bottom: 20px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

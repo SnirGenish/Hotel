@@ -1,13 +1,17 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.clr {
+  clear: both;
+}
 /* nav */
 nav {
+  display: block;
   background-color: #333;
 }
 #container {
@@ -58,14 +62,15 @@ nav ul li a:hover {
 /* footer */
 
 footer {
-  position: absolute;
-  bottom: 0px;
-  display: block;
   background-color: #444;
-  width: 100vw;
   padding: 20px;
 }
 footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   text-align: center;
   color: white;
   margin: 10px 0;

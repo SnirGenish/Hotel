@@ -1,0 +1,79 @@
+section {
+  display: block;
+  padding: 30px 0;
+  background: #f4f4f4;
+  color: #333;
+}
+#abo {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#text {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+#text h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+#text h1 span {
+  color: #f7c08a;
+}
+#text p {
+  margin: 10px 0;
+}
+#pic {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#pic img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+main {
+  height: 600px;
+  background: url("/Hotel/image_resources/test-bg.jpg") no-repeat center
+    center/cover;
+  padding-top: 100px;
+}
+main h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+#container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+main .red,
+.brown {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background: #f7c08a;
+  opacity: 0.9;
+  color: #333;
+}
+main img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+main p {
+  margin: 10px 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
